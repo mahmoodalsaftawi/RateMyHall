@@ -1,0 +1,2 @@
+class BelkArticle < ApplicationRecord
+end

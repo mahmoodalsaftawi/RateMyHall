@@ -1,0 +1,2 @@
+module DormHallsHelper
+end

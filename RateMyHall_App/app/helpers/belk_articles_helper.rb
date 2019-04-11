@@ -1,0 +1,2 @@
+module BelkArticlesHelper
+end

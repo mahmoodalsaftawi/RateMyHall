@@ -1,0 +1,15 @@
+<!-- Side navigation -->
+<div class="sidenav">
+  <a href=/welcome/index>Home</a>
+  <a href="/dorm_halls/index">Residence Halls</a>
+  <a href="#">Contact</a>
+  <a href="#">About</a>
+</div>
+<p>
+    <strong>Your Belk Hall Review</strong>
+    <%= @belk_article.text %>
+</p>
+
+<p>
+  <%= link_to "Belk Hall Page", belk_articles_path%>
+</p>

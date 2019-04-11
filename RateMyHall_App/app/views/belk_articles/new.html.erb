@@ -1,0 +1,21 @@
+<!-- Side navigation -->
+<div class="sidenav">
+  <a href=/welcome/index>Home</a>
+  <a href="/dorm_halls/index">Residence Halls</a>
+  <a href="#">Contact</a>
+  <a href="#">About</a>
+</div>
+
+<!-- Main Content -->
+<h1>Belk Hall Page</h1>
+
+<%= form_for :belk_article, url: belk_articles_path do |f| %>
+  <p>
+    <%= f.label :text %><br> <!-- Label name, change later -->
+    <%= f.text_area :text %>
+  </p>
+ 
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
