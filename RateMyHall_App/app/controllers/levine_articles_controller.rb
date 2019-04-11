@@ -1,0 +1,2 @@
+class LevineArticlesController < ApplicationController
+end

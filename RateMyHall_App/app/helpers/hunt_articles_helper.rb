@@ -1,0 +1,2 @@
+module HuntArticlesHelper
+end

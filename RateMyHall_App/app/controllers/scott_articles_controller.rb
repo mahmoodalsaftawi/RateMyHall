@@ -1,0 +1,2 @@
+class ScottArticlesController < ApplicationController
+end

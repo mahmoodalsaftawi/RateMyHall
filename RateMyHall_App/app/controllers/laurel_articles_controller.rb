@@ -1,0 +1,2 @@
+class LaurelArticlesController < ApplicationController
+end

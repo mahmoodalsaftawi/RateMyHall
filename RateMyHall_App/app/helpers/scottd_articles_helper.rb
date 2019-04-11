@@ -1,0 +1,2 @@
+module ScottdArticlesHelper
+end

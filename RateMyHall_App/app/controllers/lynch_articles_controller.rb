@@ -1,0 +1,2 @@
+class LynchArticlesController < ApplicationController
+end

@@ -1,0 +1,2 @@
+module ScottArticlesHelper
+end

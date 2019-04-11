@@ -1,0 +1,2 @@
+class MartinArticlesController < ApplicationController
+end

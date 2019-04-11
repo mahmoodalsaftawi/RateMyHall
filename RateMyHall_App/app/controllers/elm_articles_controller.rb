@@ -1,0 +1,2 @@
+class ElmArticlesController < ApplicationController
+end

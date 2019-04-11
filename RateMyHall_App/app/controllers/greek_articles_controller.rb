@@ -1,0 +1,2 @@
+class GreekArticlesController < ApplicationController
+end

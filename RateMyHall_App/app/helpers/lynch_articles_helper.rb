@@ -1,0 +1,2 @@
+module LynchArticlesHelper
+end

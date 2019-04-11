@@ -1,0 +1,2 @@
+class PineArticlesController < ApplicationController
+end

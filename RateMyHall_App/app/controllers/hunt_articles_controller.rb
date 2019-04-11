@@ -1,0 +1,2 @@
+class HuntArticlesController < ApplicationController
+end

@@ -1,0 +1,2 @@
+class HawthroneArticlesController < ApplicationController
+end

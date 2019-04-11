@@ -1,0 +1,2 @@
+class WitherspoonArticlesController < ApplicationController
+end

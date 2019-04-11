@@ -1,0 +1,2 @@
+module WitherspoonArticlesHelper
+end

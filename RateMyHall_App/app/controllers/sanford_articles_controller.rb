@@ -1,0 +1,2 @@
+class SanfordArticlesController < ApplicationController
+end

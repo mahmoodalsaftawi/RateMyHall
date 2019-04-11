@@ -1,0 +1,2 @@
+class HolshuerArticlesController < ApplicationController
+end

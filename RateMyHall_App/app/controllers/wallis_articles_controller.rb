@@ -1,0 +1,2 @@
+class WallisArticlesController < ApplicationController
+end
