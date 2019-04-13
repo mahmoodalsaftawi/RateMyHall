@@ -20,7 +20,7 @@ h2 {
 body{
   background-image: url("https://asg-architects.com/wp-content/gallery/uncc-laurel/7-32.jpg");
   background-repeat: no-repeat;
-  background-size:cover
+  background-size:auto
 
 }
 #Home{
@@ -35,7 +35,7 @@ body{
 .logo {
     display: inline-block;
     vertical-align: top;
-    width: 50px;
+    width: 40px;
     height: 50px;
     margin-left: 10px; 
     margin-right: 20px;
@@ -44,8 +44,8 @@ body{
 .navigation-bar > a {
     display: inline-block;
     vertical-align: top;
-    margin-right: 30px; /*THIS IS THE SPACE BETWEEN TABS */
-    height: 80px;        /* if you want it to take the full height of the bar */
+    margin-right: 50px; /*THIS IS THE SPACE BETWEEN TABS */
+    height: 50px;        /* if you want it to take the full height of the bar */
     line-height: 80px;    /* if you want it vertically middle of the navbar */
 }
 
@@ -65,6 +65,6 @@ a {
 }
 
 a:hover {
-  color: hotpink;
+  color: green;
   
 }
