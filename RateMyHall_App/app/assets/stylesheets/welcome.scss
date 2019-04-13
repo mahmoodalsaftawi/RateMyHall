@@ -2,55 +2,69 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 h1 {
-  font-size: 40px;
-  color: #100560;
+  font-size: 90px;
+  font-family: "Arial Black", Gadget, sans-serif;
+  color: #ffffff;
+  font-style: bold;
+  text-align: center
+
 }
+h2 {
+  font-size: 30px;
+  font-family: "Arial Black", Gadget, sans-serif;
+  text-align: right;
+  color: #ffffff;
+  text-align: center
+}
+
 body{
-  background: #8690a0;
+  background-image: url("https://asg-architects.com/wp-content/gallery/uncc-laurel/7-32.jpg");
+  background-repeat: no-repeat;
+  background-size:cover
+
 }
 #Home{
   text-align: center;
 }
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+
+.navigation-bar {
+    width: 100%;  /* i'm assuming full width */
+    height: 80px; /* change it to desired width */
+    background-color: #BDC3C7; /* change to desired color */
+}
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px; 
+    margin-right: 20px;
+    margin-top: 8px;    /* if you want it vertically middle of the navbar. */
+}
+.navigation-bar > a {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 30px; /*THIS IS THE SPACE BETWEEN TABS */
+    height: 80px;        /* if you want it to take the full height of the bar */
+    line-height: 80px;    /* if you want it vertically middle of the navbar */
 }
 
-/* The sidebar menu */
-.sidenav {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 200px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
-  left: 0;
-  background-color: #100560; /* Black */
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 20px;
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px 5px 5px 5px;
 }
 
-/* The navigation menu links */
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
+a {
   font-size: 25px;
-  color: #8690a0;
-  display: block;
+  color: black;
+  font-family: "Arial Black", Gadget, sans-serif;
+  text-align: right;
+  font-style: bold;
+  text-decoration: none;
 }
 
-/* When you mouse over the navigation links, change their color */
-.sidenav a:hover {
-  color: #f1f1f1;
-}
-
-/* Style page content */
-.main {
-  margin-left: 160px; /* Same as the width of the sidebar */
-  padding: 0px 10px;
-}
-
-.active {
-  background-color: #4CAF50;
+a:hover {
+  color: hotpink;
+  
 }
