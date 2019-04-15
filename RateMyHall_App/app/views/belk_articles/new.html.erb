@@ -10,9 +10,10 @@
 <!-- Main Content -->
 <h1>Belk Hall Page</h1>
 
-<%= form_for :belk_article, url: belk_articles_path do |f| %>
+<div class="input">
+  <%= form_for :belk_article, url: belk_articles_path do |f| %>
   <p>
-    <%= f.label :text %><br> <!-- Label name, change later -->
+    <%= f.label :Review %><br> <!-- Label name, change later -->
     <%= f.text_area :text %>
   </p>
  
@@ -20,3 +21,4 @@
     <%= f.submit %>
   </p>
 <% end %>
+</div>

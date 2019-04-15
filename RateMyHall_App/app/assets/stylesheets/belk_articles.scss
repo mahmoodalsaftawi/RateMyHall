@@ -3,4 +3,30 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .reviews{
     text-align: center;
+    font-size: 20px;
+    color: white;
+}
+.title{
+    color: white;
+}
+.link{
+    position: relative;
+    top: 50px;
+    color: white;
+}
+.input{
+    font-size: 40px;
+}
+.returnLink{
+    font-size: 20px;
+    color: white;
+    opacity: 0.75;
+    position: relative;
+    top: 280px;
+    right: -600px;
+}
+p{
+    position: relative;
+    top: 150px;
+    //opacity: 0.75;
 }

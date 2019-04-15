@@ -8,12 +8,14 @@
 </nav>
 
 <!-- Main Content -->
-<h1>Listing Belk Hall Reviews</h1>
+<div class = "title">
+  <h1>Belk Hall</h1>
+</div>
  
-<div class="reviews">
-    <table align="center">
+<div class = "reviews">
+    <table align= "center">
   <tr>
-    <th>Review</th>
+    <th>Reviews</th>
   </tr>
  
   <% @belk_articles.each do |belk_article| %>
@@ -24,6 +26,6 @@
   <% end %>
 </table>
 </div>
-<p>
-    <%= link_to "Add new review", new_belk_article_path%>
-</p>
+<h2>
+    <%= link_to "Add new review", new_belk_article_path, class:"link"%>
+<h2>

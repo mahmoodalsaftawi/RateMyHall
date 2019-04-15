@@ -6,15 +6,22 @@ h1 {
   font-family: "Arial Black", Gadget, sans-serif;
   color: #ffffff;
   font-style: bold;
-  text-align: center
-
+  text-align: center;
+  
+  position: relative;
+  top: -85px;
+  opacity: 0.75;
 }
 h2 {
   font-size: 30px;
   font-family: "Arial Black", Gadget, sans-serif;
   text-align: right;
   color: #ffffff;
-  text-align: center
+  text-align: center;
+  
+  position: relative;
+  top: -50px;
+  opacity: 0.75;
 }
 
 body{
@@ -66,5 +73,4 @@ a {
 
 a:hover {
   color: green;
-  
 }
