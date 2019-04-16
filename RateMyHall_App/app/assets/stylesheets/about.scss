@@ -1,20 +1,12 @@
-// Place all the styles related to the Welcome controller here.
+// Place all the styles related to the about controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 h1 {
-  font-size: 90px;
+  font-size: 20px;
   font-family: "Arial Black", Gadget, sans-serif;
   color: #ffffff;
   font-style: bold;
-  text-align: center;
-
-}
-h2 {
-  font-size: 30px;
-  font-family: "Arial Black", Gadget, sans-serif;
-  text-align: right;
-  color: #ffffff;
   text-align: center;
    color: white;
   text-shadow:
@@ -24,7 +16,6 @@ h2 {
      2px 2px 0 #000;
 
 }
-
 h3 {
   font-size: 30px;
   font-family: "Arial Black", Gadget, sans-serif;
@@ -37,14 +28,10 @@ h3 {
     2px -2px 0 #000,
     -2px 2px 0 #000,
      2px 2px 0 #000;
-}
-
-body{
-  background-image: url("https://asg-architects.com/wp-content/gallery/uncc-laurel/7-32.jpg");
-  background-repeat: no-repeat;
-  background-size:auto
 
 }
+
+
 #Home{
   text-align: center;
 }
@@ -89,16 +76,4 @@ a {
 a:hover {
   color: green;
   
-}
-
-.row {
-  display: flex;
-}
-
-.column {
-  flex: 50%;
-}
-
-.list{
-  color:white;
 }
