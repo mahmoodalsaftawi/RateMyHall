@@ -11,7 +11,7 @@ h1 {
 
 }
 h2 {
-  font-size: 30px;
+  font-size: 40px;
   font-family: "Arial Black", Gadget, sans-serif;
   text-align: right;
   color: #ffffff;
@@ -28,10 +28,10 @@ h2 {
 h3 {
   font-size: 30px;
   font-family: "Arial Black", Gadget, sans-serif;
-  text-align: right;
-  color: #ffffff;
   text-align: center;
-   color: white;
+  padding-left: 20px;
+  color: #ffffff;
+  color: white;
   text-shadow:
    -2px -2px 0 #000,  
     2px -2px 0 #000,
@@ -39,11 +39,22 @@ h3 {
      2px 2px 0 #000;
 }
 
-body{
-  background-image: url("https://asg-architects.com/wp-content/gallery/uncc-laurel/7-32.jpg");
-  background-repeat: no-repeat;
-  background-size:auto
 
+body.home{
+  background-image:url("https://asg-architects.com/wp-content/gallery/uncc-laurel/7-32.jpg");
+  
+}
+body.about{
+  background-image:url("https://images.pexels.com/photos/1493374/pexels-photo-1493374.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+body.listHalls{
+  background-image:url("https://www.rodgersbuilders.com/wp-content/uploads/UNCC_Miltimore_Hall_FTR_2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
 #Home{
   text-align: center;
@@ -97,5 +108,10 @@ a:hover {
 
 .column {
   flex: 50%;
+}
+
+li:hover {
+  color: green;
+  
 }
 
