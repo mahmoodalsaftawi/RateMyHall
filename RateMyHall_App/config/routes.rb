@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   get 'dorm_halls/index'
   get 'welcome/index'
   get 'about/index'
+  get 'contact/index'
   resources :belk_articles
   
   root 'welcome#index'
