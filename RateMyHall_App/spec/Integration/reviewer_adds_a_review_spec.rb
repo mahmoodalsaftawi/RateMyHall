@@ -10,10 +10,23 @@ feature "Reviewer adds a review" do
         expect(page).to have_content("Belk Hall Page")
     end
     
-    scenario "Reviewer navigates successfully to the Belk Hall Page" do
+     scenario "Reviewer successfully leaves review" do
         visit new_belk_article_path
         expect(page).to have_content("Belk Hall Page")
         click_button "Save Belk article"
         expect(page).to have_content("Your Belk Hall Review")
     end
+    
+    scenario "Reviewer navigates successfully to the About us" do
+        visit about_index_path
+        expect(page).to have_content("Founded in April 2019, by:")
+    end
+    
+    scenario "Reviewer navigates successfully to Contact Us and fills out form" do
+        visit contact_index_path
+        fill_in "firstname", with: "First Name"
+        fill_in "lastname", with: "Last Name"
+        fill_in "subject", with: "Subject"
+    end
+    
 end
